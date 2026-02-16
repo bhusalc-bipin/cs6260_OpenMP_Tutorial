@@ -28,7 +28,7 @@ To keep programs small and simple, all examples except intro.c use a program tha
 
 1. **parallel**: Specify a parallel region
 2. **parallel for**: Parallelize a for loop
-3. **critical**: Specify a region which should be executed by threads one at a time (handles race conditions)
+3. **critical**: Specify a region that should be executed by threads one at a time (handles race conditions)
 4. **barrier**: Synchronize all threads
 
 ### Not Covered in This Tutorial
