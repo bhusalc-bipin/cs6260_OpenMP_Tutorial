@@ -39,8 +39,8 @@ int main(int argc, char** argv) {
         return EXIT_FAILURE;
     }
 
-    unsigned int thread_count
-        = atoi(argv[1]); // Get the number of threads from command line argument
+    // Get the number of threads from command line argument
+    unsigned int thread_count = atoi(argv[1]);
 
     // If num_threads is not specified, it will use the number of available cores as default. We can
     // also set the number of threads using the OMP_NUM_THREADS environment variable.
