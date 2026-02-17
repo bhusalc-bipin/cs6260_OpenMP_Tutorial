@@ -39,6 +39,12 @@ To keep programs small and simple, all examples except intro.c use a program tha
 
 **NOTE:** There are many other helpful directives as well. You can explore those in the OpenMP official documentation.
 
+## Bug Hunt Challenge
+
+After completing the tutorial, you can try **Bug Hunt Challenge** in `bug_hunt.c`. The program computes triangular numbers and basic statistics (sum, min, max, average, even count) using OpenMP, but contains **5 bugs** related to parallelization concepts. Your task is to find and fix all of them.
+
+The solution with detailed explanations is available in `bug_hunt_solution.c`.
+
 ## Disclaimer
 
 1. To keep programs simple and focused on OpenMP concepts, I am not doing extensive error checking. Also, the approach I am using in this tutorial might not be the optimal approach.
