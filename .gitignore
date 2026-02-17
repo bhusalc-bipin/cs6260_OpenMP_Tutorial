@@ -3,4 +3,6 @@ scope
 reduction
 parallel_for
 scheduling
+bug_hunt
+bug_hunt_solution
 .DS_Store
