@@ -20,7 +20,7 @@ This tutorial introduces you to OpenMP.
 
 ## Program
 
-To keep programs small and simple, all examples except intro.c use a program that calculates the sum of 1 through a user-specified number using a user-specified number of threads.
+To keep programs small and simple, all examples except `intro.c` use a program that calculates the sum of 1 through a user-specified number using a user-specified number of threads.
 
 ## Most Common OpenMP Directives
 
