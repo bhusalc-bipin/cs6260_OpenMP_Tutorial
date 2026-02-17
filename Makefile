@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -fopenmp -Wall -Wextra -O2
+CFLAGS = -fopenmp -Wall -Wextra
 
 .PHONY: all intro scope reduction parallel_for scheduling bug_hunt bug_hunt_solution clean
 
