@@ -24,6 +24,7 @@
  *
  * NOTE: Eventhough subtraction is not associative, it is still allowed in reduction clause because
  * OpenMP internally converts it to addition of partial results with appropriate sign changes.
+ * For example: a - b - c can be expressed as a + (-b) + (-c) to make subtraction associative.
  */
 
 #include <omp.h>
